@@ -2,7 +2,7 @@ import HeroLogo from "../assets/col-md-6.png";
 
 export const Hero = () => {
   return (
-    <section className="flex justify-center z-[-2] rounded-2xl bg-gradient-to-r from-heroLeftcolor to-heroRightcolor ">
+    <section className="fa-fonts flex justify-center z-[-2] rounded-2xl bg-gradient-to-r from-heroLeftcolor to-heroRightcolor ">
       <div className="flex basis-[95%] flex-col bg-gradient-custom pl-14">
         <div className="flex items-center basis-[90%] pl-14">
           <div className="basis-1/2">
