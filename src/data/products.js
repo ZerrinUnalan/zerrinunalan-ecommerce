@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    imgSrc: "../../src/assets/productCard.png",
+    imgSrc: "../../src/assets/productCard1.png",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: 16.48,

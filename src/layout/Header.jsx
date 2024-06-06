@@ -3,6 +3,7 @@ import { Hero } from "../components/Hero";
 import { Clients } from "../components/Clients";
 import { ShopCard } from "../components/ShopCards";
 import { ProductCardsTop } from "../components/ProductCardsTop";
+import ProductsCards from "../components/ProductsCards";
 
 export const Header = () => {
   return (
@@ -12,6 +13,7 @@ export const Header = () => {
       <Clients />
       <ShopCard />
       <ProductCardsTop />
+      <ProductsCards />
     </>
   );
 };
