@@ -4,6 +4,7 @@ import { Clients } from "../components/Clients";
 import { ShopCard } from "../components/ShopCards";
 import { ProductCardsTop } from "../components/ProductCardsTop";
 import ProductsCards from "../components/ProductsCards";
+import { Content } from "../components/Content";
 
 export const Header = () => {
   return (
@@ -14,6 +15,7 @@ export const Header = () => {
       <ShopCard />
       <ProductCardsTop />
       <ProductsCards />
+      <Content />
     </>
   );
 };

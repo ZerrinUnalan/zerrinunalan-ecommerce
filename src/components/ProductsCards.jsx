@@ -2,7 +2,7 @@ import { products } from "../data/products";
 import React from "react";
 
 const ProductCards = () => (
-  <div className="product-cards-container flex flex-wrap">
+  <div className="product-cards-container justify-center flex flex-wrap">
     {products.map((product) => (
       <div
         key={product.id}
