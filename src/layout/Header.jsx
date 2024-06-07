@@ -5,6 +5,7 @@ import { ShopCard } from "../components/ShopCards";
 import { ProductCardsTop } from "../components/ProductCardsTop";
 import ProductsCards from "../components/ProductsCards";
 import { Content } from "../components/Content";
+import Footer from "../components/Footer";
 
 export const Header = () => {
   return (
@@ -16,6 +17,7 @@ export const Header = () => {
       <ProductCardsTop />
       <ProductsCards />
       <Content />
+      <Footer />
     </>
   );
 };

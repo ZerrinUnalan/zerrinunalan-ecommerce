@@ -14,6 +14,7 @@ export default {
         heroBonus: "#977DF4",
         heroLeftcolor: "#96E9FB",
         heroRightcolor: "#ABECD6",
+        footerColor: "#737373",
       },
     },
   },
