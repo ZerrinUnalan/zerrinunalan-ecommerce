@@ -6,9 +6,11 @@ export default function Features() {
   return (
     <section className="flex flex-col items-center gap-32 pt-24 w-full h-[1214px] lg:w-full lg:h-[632px]">
       <div className="flex flex-col items-center gap-2 w-[248px] h-[122px] lg:w-full">
-        <h4 className="text-softText">Featured Products</h4>
-        <h3 className="text-title">THE BEST SERVICES</h3>
-        <p className="text-softText">
+        <h4 className="text-footerColor text-xl">Featured Products</h4>
+        <h3 className="text-title text-textColor text-2xl font-bold ">
+          THE BEST SERVICES
+        </h3>
+        <p className="text-footerColor text-l">
           Problems trying to resolve the conflict between{" "}
         </p>
       </div>
