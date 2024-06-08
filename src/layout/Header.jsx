@@ -6,6 +6,7 @@ import { ProductCardsTop } from "../components/ProductCardsTop";
 import ProductsCards from "../components/ProductsCards";
 import { Content } from "../components/Content";
 import Footer from "../components/Footer";
+import Features from "../components/Features";
 
 export const Header = () => {
   return (
@@ -17,6 +18,7 @@ export const Header = () => {
       <ProductCardsTop />
       <ProductsCards />
       <Content />
+      <Features />
       <Footer />
     </>
   );
