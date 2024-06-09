@@ -7,14 +7,14 @@ export default function Features() {
     <section className="flex flex-col items-center gap-32 pt-24 w-full h-[1214px] lg:w-full lg:h-[632px]">
       <div className="flex flex-col items-center gap-2 w-[248px] h-[122px] lg:w-full">
         <h4 className="text-footerColor text-xl">Featured Products</h4>
-        <h3 className="text-title text-textColor text-2xl font-bold ">
+        <h3 className="text-textColor text-2xl font-bold ">
           THE BEST SERVICES
         </h3>
         <p className="text-footerColor text-l">
           Problems trying to resolve the conflict between{" "}
         </p>
       </div>
-      <div className="lg:flex lg:flex-row lg:justify-around flex flex-col gap-32 ">
+      <div className="lg:flex lg:flex-row flex  lg:justify-around flex flex-col gap-32 w-[1045px] h-[274px]">
         <div className="flex flex-col justify-between  items-center gap-4  lg:w-full">
           <img src={features1} alt="features1" />
 
@@ -23,7 +23,7 @@ export default function Features() {
             Get your best looking smile now!
           </p>
         </div>
-        <div className="flex flex-col justify-between items-center gap-4 lg:w-full">
+        <div className="flex flex-col  justify-between items-center gap-4 lg:w-full">
           <img src={features2} alt="features2" />
 
           <h3 className="text-darkBackground text-2xl font-bold">Concrete</h3>

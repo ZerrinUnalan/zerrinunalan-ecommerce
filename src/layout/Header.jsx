@@ -7,6 +7,7 @@ import ProductsCards from "../components/ProductsCards";
 import { Content } from "../components/Content";
 import Footer from "../components/Footer";
 import Features from "../components/Features";
+import { FeaturedPosts } from "../components/FeaturedPosts";
 
 export const Header = () => {
   return (
@@ -19,6 +20,7 @@ export const Header = () => {
       <ProductsCards />
       <Content />
       <Features />
+      <FeaturedPosts />
       <Footer />
     </>
   );
