@@ -14,7 +14,7 @@ export default function Features() {
           Problems trying to resolve the conflict between{" "}
         </p>
       </div>
-      <div className="lg:flex lg:flex-row flex  lg:justify-around flex flex-col gap-32 w-[1045px] h-[274px]">
+      <div className="lg:flex lg:flex-row  lg:justify-around flex-col gap-32 w-[1045px] h-[274px]">
         <div className="flex flex-col justify-between  items-center gap-4  lg:w-full">
           <img src={features1} alt="features1" />
 

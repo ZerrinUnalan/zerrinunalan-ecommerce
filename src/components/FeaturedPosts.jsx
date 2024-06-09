@@ -1,3 +1,5 @@
+import fpc1 from "../assets/featuredProductCard1.png";
+
 export const FeaturedPosts = () => {
   return (
     <>
@@ -16,8 +18,8 @@ export const FeaturedPosts = () => {
             <article className="shadow-lg pr-5 max-sm:py-4 hover:shadow-2xl hover:shadow-secondTextcolor">
               <div className="flex justify-center gap-4 max-sm:flex-wrap  ">
                 <div className="relative basis-[44%] max-sm:basis-[80%] aspect-[2/3.5] max-sm:aspect-[1/1]">
-                  <img className="w-full h-full" src="" alt="" />
-                  <p className="absolute text-sm max-sm:text-lg leading-6 top-5 left-5 bg-error text-white px-3">
+                  <img className="w-full h-full" src={fpc1} alt="fpc1" />
+                  <p className="absolute text-sm max-sm:text-lg leading-6 top-5 left-5  bg-errorColor text-white px-3">
                     Sale
                   </p>
                   <div className="absolute bottom-5 left-[13%] max-lg:left-[25%] max-sm:left-[19%] flex justify-center gap-4 text-xl max-xl:text-sm max-lg:text-xs max-sm:text-2xl">

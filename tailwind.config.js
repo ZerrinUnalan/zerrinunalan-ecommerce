@@ -19,6 +19,7 @@ export default {
         priceGreen: "#23856D",
         priceOrange: "#E77C40",
         starYellow: "#FFCE31",
+        errorColor: "E74040",
       },
     },
   },
