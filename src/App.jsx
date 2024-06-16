@@ -1,10 +1,10 @@
 import "./index.css";
-import { Header } from "./layout/Header";
+import { HomePage } from "./components/HomePage";
 
 function App() {
   return (
     <div className="max-w-[1440px] m-auto">
-      <Header />
+      <HomePage />
     </div>
   );
 }
