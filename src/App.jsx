@@ -1,5 +1,6 @@
 import "./index.css";
 import { HomePage } from "./components/HomePage";
+import ShopPage from "./pages/ShopPage";
 
 function App() {
   return (
