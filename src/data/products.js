@@ -1,0 +1,42 @@
+export const products = [
+  {
+    id: 1,
+    imgSrc: "../../src/assets/productCard1.png",
+    title: "Graphic Design",
+    department: "English Department",
+    oldPrice: 16.48,
+    newPrice: 6.48,
+  },
+  {
+    id: 2,
+    imgSrc: "../../src/assets/productCard2.png",
+    title: "Graphic Design",
+    department: "English Department",
+    oldPrice: 16.48,
+    newPrice: 6.48,
+  },
+  {
+    id: 3,
+    imgSrc: "../../src/assets/productCard3.png",
+    title: "Graphic Design",
+    department: "English Department",
+    oldPrice: 16.48,
+    newPrice: 6.48,
+  },
+  {
+    id: 4,
+    imgSrc: "../../src/assets/productCard4.png",
+    title: "Graphic Design",
+    department: "English Department",
+    oldPrice: 16.48,
+    newPrice: 6.48,
+  },
+  {
+    id: 5,
+    imgSrc: "../../src/assets/productCard5.png",
+    title: "Graphic Design",
+    department: "English Department",
+    oldPrice: 16.48,
+    newPrice: 6.48,
+  },
+];
